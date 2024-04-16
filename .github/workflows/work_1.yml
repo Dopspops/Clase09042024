@@ -4,5 +4,15 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Print Something
-        run: echo "Hola Pitaya!"
+      - name: Primera Impresion
+        run: echo "Impresion 1"
+        run: echo "Impresion 2"
+        run: echo "Impresion 3"
+      - name: Segunda Impresion
+        run: echo "Impresion 1"
+        run: echo "Impresion 2"
+        run: echo "Impresion 3"
+      - name: Tercera Impresion
+        run: echo "Impresion 1"
+        run: echo "Impresion 2"
+        run: echo "Impresion 3"
